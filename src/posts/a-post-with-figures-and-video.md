@@ -14,7 +14,7 @@ If you want to make an image bleed-out, add a title attribute to it and the fron
 
 You can also add videos to posts from YouTube or Vimeo (or wherever, really) and the front-end will also make those bleed-out for you too.
 
-<div style="position:relative;padding-top:56.25%;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/_38JDGnr0vA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<!-- <div style="position:relative;padding-top:56.25%;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/_38JDGnr0vA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> -->
 
 <iframe src="https://www.youtube.com/embed/_38JDGnr0vA"></iframe>
 
