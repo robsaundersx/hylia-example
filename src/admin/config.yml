@@ -14,6 +14,7 @@ collections:
         file: "src/index.md"
         slug: "{{slug}}"
         fields:
+          - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/njk.njk"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
@@ -21,7 +22,6 @@ collections:
           - {label: "Post Feed Heading", name: "postsHeading", widget: "string", default: "Latest posts"}
           - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "See all posts"}
           - {label: "Social Image", name: "socialImage", widget: "image", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
